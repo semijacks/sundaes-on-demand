@@ -5,7 +5,6 @@ import {
 } from '@testing-library/react';
 import SummaryForm from '../SummaryForm';
 import userEvent from '@testing-library/user-event';
-import { queryByText } from '@testing-library/dom';
 
 test('initial conditions of button and checkbox', () => {
   render(<SummaryForm />);
